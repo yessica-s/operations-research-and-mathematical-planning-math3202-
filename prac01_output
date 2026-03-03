@@ -1,0 +1,45 @@
+Set parameter Username
+Set parameter LicenseID to value 2785537
+Academic license - for non-commercial use only - expires 2027-02-28
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i5-1334U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 3 rows, 2 columns and 6 nonzeros (Max)
+Model fingerprint: 0x2a02a036
+Model has 2 linear objective coefficients
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [2e+00, 4e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 5e+03]
+
+Found heuristic solution: objective 32.0000000
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 2 rows, 2 columns, 4 nonzeros
+Variable types: 0 continuous, 2 integer (0 binary)
+
+Root relaxation: objective 3.733333e+01, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   37.33333    0    2   32.00000   37.33333  16.7%     -    0s
+     0     0   37.00000    0    1   32.00000   37.00000  15.6%     -    0s
+H    0     0                      34.0000000   37.00000  8.82%     -    0s
+H    0     0                      36.0000000   37.00000  2.78%     -    0s
+     0     0   37.00000    0    1   36.00000   37.00000  2.78%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 36 34 32 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.600000000000e+01, best bound 3.600000000000e+01, gap 0.0000%
+Make 6.0 Choc
+Make 6.0 Plain
+Revenue is 36.0
