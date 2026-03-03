@@ -18,7 +18,7 @@ m = gp.Model("Farmer Jones")
 #Create variables
 X = {}
 for c in range(len(cakes)):
-    X[c] = m.addVar(vtype=gp.GRB.INTEGER)
+    X[c] = m.addVar(vtype=gp.GRB.INTEGER) #.CONTINUOUS
 
 #Objective (to optimize)
 m.setObjective(gp.quicksum(revenue[c]*X[c] for c in range(len(cakes))), gp.GRB.MAXIMIZE)
